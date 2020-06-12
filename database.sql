@@ -211,8 +211,6 @@ FROM CHECH_OUT;
 SELECT SUM(total_price)
 FROM CHECH_OUT;
 
-SELECT COUNT (gender),gender
-FROM CUSTOMER GROUP BY gender;
 
 SELECT SUM(total_price), booking_iD FROM CHECH_OUT GROUP BY booking_id;
 
